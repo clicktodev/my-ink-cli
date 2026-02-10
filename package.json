@@ -8,8 +8,8 @@
 		"node": ">=18"
 	},
 	"scripts": {
-		"build": "tsc",
-		"dev": "tsc --watch"
+		"build": "bun build  --format=esm --target bun source/cli.tsx --outdir dist",
+		"build-binary": "bun build --compile --bytecode --format=esm --target bun source/cli.tsx --outfile mycli"
 	},
 	"files": [
 		"dist"

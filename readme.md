@@ -3,15 +3,10 @@
 ## Install and run
 
 ```bash
-$ bun install
+$ bun install && bun run build-binary
 ```
 
 
 ```bash
-$ bun run dev
-```
-
-
-```bash
-$ bun run dist/cli.js
+$ ./mycli
 ```
