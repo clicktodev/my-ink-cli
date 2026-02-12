@@ -18,7 +18,7 @@
 		"ink": "^6",
 		"meow": "^14.0.0",
 		"react": "^19",
-		"react-devtools-core": "^7.0.1"
+		"react-devtools-core": "^6"
 	},
 	"devDependencies": {
 		"@sindresorhus/tsconfig": "^8.1.0",
